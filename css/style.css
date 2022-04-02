@@ -134,10 +134,8 @@ footer {
 footer h3 {
   font-family: 'Philosopher', sans-serif;
   font-size: 24px;
-}
-
-.add-name {
   margin-left: 2rem;
+  margin-bottom: 0;
 }
 
 .flex {
@@ -658,25 +656,14 @@ footer h3 {
 
   .address-left {
     width: initial;
-
+    border-bottom: 1px solid #fff;
     font-size: 18px;
   }
 
 
 
   footer h3 {
-    margin-bottom: 0;
-    margin-top: 50px;
-    font-size: 24px;
-  }
-
-  .add-name {
-    margin-top: 0;
     margin-left: 1rem;
-  }
-
-  .address-left {
-    border-bottom: 1px solid #fff;
   }
 
 }
