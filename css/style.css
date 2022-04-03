@@ -15,16 +15,16 @@ html {
 }
 
 body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
   background-image: url(../images/haikei.jpg);
   background-repeat: repeat;
-  font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
   line-height: 1.7;
   color: #432;
 }
 
 li {
   list-style-type: none;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Philosopher', serif;
   font-weight: bold;
 }
 
@@ -85,7 +85,7 @@ h3 {
 /* header 
 -------------------------*/
 .page-name {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Philosopher', serif;
   margin-left: 1rem;
   text-shadow: 3px 2px 2px #fff;
 }
@@ -104,7 +104,7 @@ h3 {
 
 .page-title {
   font-size: 64px;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Philosopher', serif;
   text-transform: uppercase;
   font-weight: normal;
   text-align: center;
@@ -132,7 +132,7 @@ footer {
 }
 
 footer h3 {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Philosopher', serif;
   font-size: 24px;
   margin-left: 2rem;
   margin-bottom: 0;
@@ -199,12 +199,12 @@ footer h3 {
 
 #top-name {
   font-size: 64px;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Philosopher', serif;
   font-weight: normal;
 }
 
 .slogan {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Philosopher', serif;
   font-size: 21px;
 }
 
@@ -463,6 +463,10 @@ input[type="submit"] {
     margin-left: 0;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .logo {
+    margin-bottom: 10px;
   }
 
   .logo img {
